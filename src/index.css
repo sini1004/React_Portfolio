@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 body {
   margin: 0;
+  padding: 0;
+  background: #111;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+}
+h1, h4, p, a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #f0d800;
+  color: #222;
+  border: 1px solid #fff;
+  cursor: pointer;;
+}
+.btn-lignt {
+  background: transparent;
+  color: #fff;
 }
