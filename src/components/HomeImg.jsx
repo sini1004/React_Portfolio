@@ -5,7 +5,7 @@ import IntroImg from '../assets/professional-programmer-working-late-dark-office
 
 const HomeImg = () => {
   return (
-    <div className='Intro'>
+    <div className='intro'>
       <div className='mask'>
         <img className='intro-img' src={IntroImg} alt="IntroImg" />
       </div>
