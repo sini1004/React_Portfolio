@@ -1,0 +1,43 @@
+.projects {
+  .project-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+  }
+}
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  .project-card {
+    background: #191919;
+    padding: 1.2rem 1rem;
+    img {
+      width: 100%;
+    }
+    .pro-title {
+    }
+    .pro-details {
+      p {
+      }
+      .pro-btns {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 740px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
