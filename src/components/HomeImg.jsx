@@ -4,7 +4,7 @@ import './HomeImg.scss'
 import IntroImg from '../assets/professional-programmer-working-late-dark-office.jpg'
 
 const HomeImg = () => {
-  const completionWord = 'Publisher&Front-End Developer';
+  const completionWord = 'Publisher&Front-End Developer.';
   const [blogTitle, setBlogTitle] = useState('');
   const [count, setCount] = useState(0);
   useEffect(() => {
@@ -19,7 +19,7 @@ const HomeImg = () => {
         }
         return result;
       });
-    }, 400);
+    }, 300);
 
     return () => {
       clearInterval(typingInterval);
