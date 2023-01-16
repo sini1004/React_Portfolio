@@ -2,9 +2,9 @@ import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
-  const [text, setText] = useState('');
+  const [inputText, setInputText] = useState('');
   const onReset = () => {
-    setText('');
+    setInputText('');
   }
   const form = useRef();
   
@@ -23,14 +23,14 @@ const ContactUs = () => {
     <div className='mail-form'>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name='from_name' placeholder="이름을 입력해주세요." />
+        <input type="text" name='user_name' placeholder="이름을 입력해주세요."  value={inputText}/>
         <label>Phone</label>
         <input type="text" name='phone' placeholder="연락처를 입력해주세요."/>
         <label>Email</label>
         <input type="email" name='user_email' placeholder="메일주소를 입력해주세요."/>
         <label>Message</label>
         <textarea name='message' />
-        <input type="submit" name='text' value='Send' onClick={onReset}/>
+        <input type="submit" value='Send' onClick={onReset}/>
       </form>
     </div>
   )
