@@ -15,7 +15,10 @@ const ProjectList = () => {
               imgsrc={val.imgsrc}
               title={val.title}
               text={val.text}
+              skill={val.skill}
+              comment={val.comment}
               view={val.view}
+              code={val.code}
             />
           )
         })}

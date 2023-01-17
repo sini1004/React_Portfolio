@@ -17,7 +17,7 @@ const AboutContent = () => {
       </div>
       <div className="right">
         <h1>Who Am I?</h1>
-        <p>Im a react front-edn developer.</p>
+        <p>Im a react front-end developer.</p>
       </div>
     </div>
   )

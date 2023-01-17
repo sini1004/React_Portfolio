@@ -8,10 +8,12 @@ const ProjectCard = (props) => {
       <img src={props.imgsrc} alt="project" />
       <h2 className="pro-title">{props.title}</h2>
       <div className="pro-details">
-        <p>{props.text}</p>
+        <p>dd : {props.text}</p>
+        <p>사용 기술 : {props.skill}</p>
+        <div className='pro-details-comm'>{props.comment}</div>
         <div className="pro-btns">
-          <NavLink to={props.view} className='btn'>view site</NavLink>
-          <NavLink to={props.code} className='btn'>view code</NavLink>
+          <NavLink to={props.site} className='btn'>site</NavLink>
+          <NavLink to={props.code} className='btn'>code</NavLink>
         </div>
       </div>
     </div>

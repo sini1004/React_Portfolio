@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import HomeImg from '../components/HomeImg'
+import ProjectList from '../components/ProjectList'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <Navbar />
       <HomeImg />
+      <ProjectList />
       <Footer />
     </div>
   )
