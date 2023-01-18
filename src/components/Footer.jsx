@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.scss'
 import { FaLink, FaMailBulk, FaPhone } from 'react-icons/fa'
+import { AiFillGithub, AiFillInstagram } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -21,7 +22,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>text</h4>
+          <h4>Please Note</h4>
+          <p>
+            Thank you for taking the time to watch.<br/>
+            더 좋은 결과를 위해 계속 수정 중에 있습니다!
+          </p>
+          <div className='social'>
+            <AiFillGithub />
+            <AiFillInstagram />
+          </div>
         </div>
       </div>
     </div>

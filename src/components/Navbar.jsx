@@ -29,6 +29,9 @@ const NavBar = () => {
             <Link to='/'>Home</Link>
           </li>
           <li>
+            <Link to='/work'>Work</Link>
+          </li>
+          <li>
             <Link to='/project'>Project</Link>
           </li>
           <li>
@@ -36,9 +39,6 @@ const NavBar = () => {
           </li>
           <li>
             <Link to='/contact'>Contact</Link>
-          </li>
-          <li>
-            <Link to='/work'>Work</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

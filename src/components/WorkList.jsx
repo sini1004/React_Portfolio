@@ -1,22 +1,22 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
-import ProjectCardData from './ProjectCardData'
+import WorkCard from './WorkCard'
+import './WorkCard.scss'
+import WorkCardData from './WorkCardData'
 
 const WorkList = () => {
   return (
-    <div className='projects'>
-      <h1 className='project-heading'>Works</h1>
-      <div className="project-container">
-        {ProjectCardData.map((val, index) => {
+    <div className='work'>
+      <h1 className='work-heading'>Works</h1>
+      <div className="work-container">
+        {WorkCardData.map((val, index) => {
           return (
-            <ProjectCard 
+            <WorkCard 
               key={index}
-              imgsrc={val.imgsrc}
               title={val.title}
               text={val.text}
               skill={val.skill}
               comment={val.comment}
-              view={val.view}
+              site={val.site}
               code={val.code}
             />
           )
