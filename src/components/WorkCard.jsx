@@ -9,7 +9,7 @@ const WorkCard = (props) => {
         <span></span>
         <span></span>
       <h2 className="work-title">{props.title}</h2>
-      <span className="bar"></span>
+      <p className="bar"></p>
       <div className="work-details">
         <p>{props.text}</p>
         <p>기여도 : {props.contri}</p>
