@@ -12,8 +12,10 @@ const ProjectCard = (props) => {
         <p>사용 기술 : {props.skill}</p>
         <div className='pro-details-comm'>{props.comment}</div>
         <div className="pro-btns">
-          <NavLink to={props.site} className='btn'>site</NavLink>
-          <NavLink to={props.code} className='btn'>code</NavLink>
+          <a href={props.site} target="_blank" className='btn'>site</a>
+          <a href={props.code} target="_blank" className='btn'>code</a>
+          {/* <NavLink to={props.site} className='btn'>site</NavLink>
+          <NavLink to={props.code} className='btn'>code</NavLink> */}
         </div>
       </div>
     </div>

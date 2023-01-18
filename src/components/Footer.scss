@@ -14,16 +14,19 @@
       display: flex;
       flex-direction: column;
       padding: 1rem;
-      .location {
+      svg {
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+        color: #fff;
+      }
+      .birth,
+      .phone,
+      .email {
         display: flex;
         margin-bottom: 0.8rem;
         p {
-          line-height: 30px;
+          line-height: 1.4;
         }
-      }
-      .phone {
-      }
-      .email {
       }
     }
     .right {

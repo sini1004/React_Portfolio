@@ -6,7 +6,7 @@ import WorkCardData from './WorkCardData'
 const WorkList = () => {
   return (
     <div className='work'>
-      <h1 className='work-heading'>Works</h1>
+      <h1 className='work-heading' >Works</h1>
       <div className="work-container">
         {WorkCardData.map((val, index) => {
           return (
@@ -14,7 +14,6 @@ const WorkList = () => {
               key={index}
               title={val.title}
               text={val.text}
-              skill={val.skill}
               comment={val.comment}
               site={val.site}
               code={val.code}
