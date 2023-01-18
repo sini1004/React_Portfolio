@@ -25,6 +25,7 @@ ul {
   color: #222;
   border: 1px solid #fff;
   cursor: pointer;;
+  transition: 0.7s;
 }
 .btn-lignt {
   background: transparent;
