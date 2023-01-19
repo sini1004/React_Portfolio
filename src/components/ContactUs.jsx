@@ -1,24 +1,8 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import './ContactUs.scss'
 
 const ContactUs = () => {
-  const [user, setUser] = useState({
-    username: "",
-    phone: "",
-    email: "",
-    message: ""
-  });
-  const { username, phone, email, message } = user; //user 객체 비구조화 할당
-
-  const onChangeInput = e => {
-    const { name, value } = e.target;
-    setUser({ ...user, [name]: value }); //...user로 불변성 유지와  [name]을 사용해서 현재 입력하고 있는 input의 name의 상태 변경.
-  };
-
-  const onReset = () => {
-    setUser({ username: "", phone: "", email:"", message:"" });
-  };
 
   const form = useRef();
   
@@ -45,7 +29,7 @@ const ContactUs = () => {
         <input type="email" name='user_email' placeholder="메일주소를 입력해주세요."/>
         <label>Message</label>
         <textarea name='message'/>
-        <input type="submit" value='Send' onClick={onReset}/>
+        <input type="submit" value='Send' className='btn'/>
       </form>
     </div>
   )
