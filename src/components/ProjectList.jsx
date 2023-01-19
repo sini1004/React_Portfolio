@@ -17,7 +17,7 @@ const ProjectList = () => {
               text={val.text}
               skill={val.skill}
               comment={val.comment}
-              view={val.view}
+              site={val.site}
               code={val.code}
             />
           )

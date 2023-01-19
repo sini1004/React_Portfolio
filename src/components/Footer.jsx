@@ -26,8 +26,8 @@ const Footer = () => {
             더 좋은 결과를 위해 계속 수정 중에 있습니다!
           </p>
           <div className='social'>
-            <AiFillGithub />
-            <AiFillInstagram />
+            <a href="https://github.com/sini1004"><AiFillGithub /></a>
+            <a href="https://www.instagram.com/"><AiFillInstagram /></a>
           </div>
         </div>
       </div>
