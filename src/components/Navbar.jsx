@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.scss'
 import { Link } from 'react-router-dom' 
 import { FaTimes, FaBars } from 'react-icons/fa'
+import GoToTop from './GoToTop'
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -27,6 +28,7 @@ const NavBar = () => {
         <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <Link to='/'>Home</Link>
+            <GoToTop />
           </li>
           <li>
             <Link to='/work'>Work</Link>

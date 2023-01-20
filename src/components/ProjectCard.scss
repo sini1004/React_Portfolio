@@ -8,33 +8,36 @@
   max-width: 1140px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
 }
 .project-card {
-  background: #191919;
-  padding: 1.2rem 1rem;
+  background: #2c3135;
+  border-radius: 0.5rem;
   img {
     width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
   }
   .pro-title {
-    color: #fff;
-    padding: 1rem 0;
+    color: #b6b7b8;
+    padding: 1rem;
   }
   .pro-details {
+    padding: 1rem;
     p {
+      color: #717174;
       padding-bottom: 1rem;
-      font-size: 1.2rem;
       text-align: justify;
     }
     .pro-details-comm {
       height: 120px;
       width: 100%;
-      font-size: 1.2rem;
+      margin: 1rem 0;
       line-height: 1.6;
+      border-radius: 0.5rem;
       color: #fff;
-      background: rgba($color: #2b2b2b, $alpha: 1);
-      padding: 1rem;
+      // background: rgba($color: #2b2b2b, $alpha: 1);
+      padding: 1rem 0;
       overflow-y: scroll;
       html::-webkit-scrollbar {
         width: 10px;
@@ -57,6 +60,7 @@
       display: flex;
       justify-content: space-between;
       padding: 1rem 0 0 0;
+      border-top: 1px solid #393c42;
       a {
         width: 100%;
         margin-right: 0.4rem;

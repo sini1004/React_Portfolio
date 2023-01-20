@@ -24,7 +24,7 @@ const AboutContent = () => {
       <div className="right">
         <h1 data-aos='fade-left'>Who Am I?</h1>
         <p data-aos='fade-left' data-aos-delay="500">
-          안녕하세요! 4년차 웹 퍼블리셔 박신희입니다.<br />
+          안녕하세요!<br />4년차 웹 퍼블리셔 박신희입니다.<br />
           쉽고 깔끔한 코드를 표현하는 걸 좋아합니다.<br /><br />
 
           탄탄한 코드와 유지보수를 위한 컴포넌트 단위의 마크업에 관심이 많습니다.<br /><br />
@@ -37,6 +37,9 @@ const AboutContent = () => {
           목표를 위해 하루하루 꾸준함을 잃지 않으려 노력합니다.<br />
         </p>
       </div>
+    </div>
+    <div className="about-job">
+      
     </div>
     <div className="about-introduce">
       <ul>

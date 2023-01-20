@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
       <img src={props.imgsrc} alt="project" />
       <h2 className="pro-title">{props.title}</h2>
       <div className="pro-details">
-        <p>dd : {props.text}</p>
+        <p>{props.text}</p>
         <p>사용 기술 : {props.skill}</p>
         <div className='pro-details-comm'>{props.comment}</div>
         <div className="pro-btns">
