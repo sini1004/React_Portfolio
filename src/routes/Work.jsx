@@ -8,7 +8,7 @@ export const Work = () => {
   return (
     <div>
       <Navbar />
-      <SubImg heading='WORKS' text='퍼블리셔로 재직 시 제작한 사이트 모음'/>
+      <SubImg heading='WORKS' text='제작하여 배포한 사이트 모음입니다.'/>
       <WorkList />
       <Footer />
     </div>

@@ -44,10 +44,12 @@
       }
 
       html::-webkit-scrollbar-track {
+        background: rgb(117, 117, 117);
         // track styling
       }
 
       html::-webkit-scrollbar-thumb {
+        background: rgb(117, 117, 117);
         // thumb styling
       }
     }
@@ -55,6 +57,14 @@
       display: flex;
       justify-content: space-between;
       padding: 1rem 0 0 0;
+      a {
+        width: 100%;
+        margin-right: 0.4rem;
+        text-align: center;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
       .btn {
         padding: 0.5rem 1rem;
       }

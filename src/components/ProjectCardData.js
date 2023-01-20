@@ -55,7 +55,7 @@ const ProjectCardData = [
     imgsrc: pro6,
     title: 'Check List',
     text: '뷰로 제작한 CHECK LIST',
-    skill: 'html5, css3, jquery',
+    skill: 'Vue, TransitionGroup, Modal Component',
     comment: 'localStorage 사용으로 브라우저를 열었을 때 이전에 입력해둔 내용을 유지할 수 있습니다. TransitionGroup 컴포넌트를 사용하여 체크리스트 등록 및 삭제 시 애니메이션을 적용하였습니다.',
     site: 'https://shinhee-vue-checklist.netlify.app/',
     code: 'https://github.com/sini1004/Vue_TODO'
