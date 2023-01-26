@@ -3,6 +3,7 @@ import './AboutContent.scss'
 import profile from '../assets/sini.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { HiOutlineAcademicCap, HiOutlineLightBulb, HiOutlineSparkles} from 'react-icons/hi'
 
 const AboutContent = () => {
   useEffect(()=>{
@@ -11,7 +12,39 @@ const AboutContent = () => {
   return (
     <>
     <div className='about'>
-      <div className="left">
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+      <div className="conatiner about-container">
+        <div className="about-me">
+          <div className="about-me-img">
+            <img src={profile} alt="about image" />
+          </div>
+        </div>
+        <div className="about-content">
+          <div className="about-cards">
+            <article className='about-card'>
+              <HiOutlineAcademicCap className='about-ion'/>
+              <h5>Learn</h5>
+              <small>Html, CSS, Javascript를 배웠지만 부족함을 느껴 스터디를 통해 리액트, 뷰 등을 배우며 적극적으로 개발에 대한 역량을 키우고 있습니다.</small>
+            </article>
+            <article className='about-card'>
+              <HiOutlineSparkles className='about-ion'/>
+              <h5>Steadily</h5>
+              <small>웹디자인을 하며 웹에 대한 호기심이 생겼고 지금은 웹에 대해 공부하며 조금은 느리지만 꾸준하게 성장하고 있다고 생각합니다.</small>
+            </article>
+            <article className='about-card'>
+              <HiOutlineLightBulb className='about-ion'/>
+              <h5>Effort</h5>
+              <small>어떤 일이라도 노력하고 즐기면 그 결과는 빛을 바란다고 생각합니다. 신입의 열정과 도전정신을 깊숙히 새기며 노력하겠습니다.</small>
+            </article>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint impedit perferendis consectetur tenetur quia porro. Deserunt, perspiciatis voluptatem magnam vitae omnis velit inventore quam et beatae iste quaerat tempore.
+          </p>
+          <a href="#contact" className='btn'>Go to</a>
+        </div>
+      </div>
+      {/* <div className="left">
         <div className="img-container">
           <div className="img-stack top">
             <img src={profile} alt="profile" className='img'/>
@@ -34,12 +67,25 @@ const AboutContent = () => {
           브라우저 위에 그려지는것들이 재미있고 완성된 작업물을 보는 것이 뿌듯합니다.<br /><br />
 
           차후 프론트엔드로 전향하는 것이 현재 저의 목표입니다.<br />
-          목표를 위해 하루하루 꾸준함을 잃지 않으려 노력합니다.<br />
+          목표를 위해 하루하루 꾸준함을 잃지 않으려 노력합니다.<br /><br />
+          제 포트폴리오에 방문해주셔서 감사합니다.
         </p>
-      </div>
+      </div> */}
     </div>
     <div className="about-job">
-      
+      <h4>CAREER</h4>
+      <div className='career'>
+        <span>위넌(웹퍼블리셔)</span>
+        <span>2019.5 - 2022.5</span>
+      </div>
+      <div className='career'>
+        <span>웹스틴(웹퍼블리셔)</span>
+        <span>2018.7 - 2019.2</span>
+      </div>
+      <div className='career'>
+        <span>비앤에스파트너(웹디자이너)</span>
+        <span>2016.1 - 2017.1</span>
+      </div>
     </div>
     <div className="about-introduce">
       <ul>
