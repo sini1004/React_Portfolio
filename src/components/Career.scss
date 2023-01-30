@@ -1,0 +1,82 @@
+#career > h5 {
+  color: #2c3135;
+  padding: 1rem 0;
+  font-size: 1rem;
+  text-align: center;
+}
+#career > h2 {
+  font-size: 1.6rem;
+  color: White;
+  text-align: center;
+}
+.career-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.career {
+  background: #2c3135;
+  border-radius: 0 0 0.5rem 0.5rem;
+  border: 2px solid transparent;
+  height: fit-content;
+  transition: 0.7s;
+  &:hover {
+    background: transparent;
+    border: 2px solid #2c3135;
+    cursor: default;
+  }
+  .career-head {
+    background: #4db5ff;
+    padding: 1.6rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 2rem 1rem rgba($color: #000000, $alpha: 0.1);
+    text-align: center;
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+      color: white;
+    }
+    p {
+      font-size: 0.8rem;
+      color: #e8e8e8;
+    }
+  }
+  .career-list {
+    padding: 2rem;
+    li {
+      display: flex;
+      gap: 0.2rem;
+      margin-bottom: 0.8rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .career-list-icon {
+        color: #b6b7b8;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .career-container {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  .career {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .career-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

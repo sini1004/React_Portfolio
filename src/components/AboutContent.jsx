@@ -86,21 +86,6 @@ const AboutContent = () => {
       <Experience />
       <Career />
     </div>
-    <div className="about-job">
-      <h4>CAREER</h4>
-      <div className='career'>
-        <span>위넌(웹퍼블리셔)</span>
-        <span>2019.5 - 2022.5</span>
-      </div>
-      <div className='career'>
-        <span>웹스틴(웹퍼블리셔)</span>
-        <span>2018.7 - 2019.2</span>
-      </div>
-      <div className='career'>
-        <span>비앤에스파트너(웹디자이너)</span>
-        <span>2016.1 - 2017.1</span>
-      </div>
-    </div>
     </>
     
   )
