@@ -5,6 +5,7 @@ import pro4 from '../assets/project_pwa.png'
 import pro5 from '../assets/project_web.png'
 import pro6 from '../assets/vue_todo.png'
 import pro7 from '../assets/project_portfolio.png'
+import pro8 from '../assets/react_portfolio.png'
 
 const ProjectCardData = [
   {
@@ -67,6 +68,15 @@ const ProjectCardData = [
     text: '개인 포트폴리오 제작',
     skill: 'html5, css3, jquery, javascript',
     comment: 'javascript 라이브러리인 "GSAP"를 사용하여 제작하였습니다. 프로젝트 내용은 javascript의 XMLHttpRequest객체를 사용하여 "project.json"에 저장해둔 프로젝트 리스트를 보여줄 수 있게 하였습니다.',
+    site: 'https://sini1004.github.io/SINI/',
+    code: 'https://github.com/sini1004/SINI'
+  },
+  {
+    imgsrc: pro8,
+    title: 'Portfolio(SPA)',
+    text: '개인 포트폴리오 제작',
+    skill: 'React, Router, Link, useLocation, react-icons, Sass',
+    comment: 'react-router를 사용해 SPA형태로 구성되었습니다.',
     site: 'https://sini1004.github.io/SINI/',
     code: 'https://github.com/sini1004/SINI'
   }
