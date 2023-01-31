@@ -5,9 +5,9 @@ const WorkCard = (props) => {
   return (
     <div className="work-card">
       <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
       <h2 className="work-title">{props.title}</h2>
       <p className="bar"></p>
       <div className="work-details">

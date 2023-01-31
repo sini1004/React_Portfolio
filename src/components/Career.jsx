@@ -61,6 +61,10 @@ const Career = () => {
               </li>
               <li>
                 <BsCheck className='career-list-icon'/>
+                <p>영카트 쇼핑몰 유지보수</p>
+              </li>
+              <li>
+                <BsCheck className='career-list-icon'/>
                 <p>블로그 배너/썸네일 제작</p>
               </li>
               <li>

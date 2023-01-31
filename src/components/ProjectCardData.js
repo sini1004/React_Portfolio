@@ -4,6 +4,7 @@ import pro3 from '../assets/react_todo.png'
 import pro4 from '../assets/project_pwa.png'
 import pro5 from '../assets/project_web.png'
 import pro6 from '../assets/vue_todo.png'
+import pro7 from '../assets/project_portfolio.png'
 
 const ProjectCardData = [
   {
@@ -59,6 +60,15 @@ const ProjectCardData = [
     comment: 'localStorage 사용으로 브라우저를 열었을 때 이전에 입력해둔 내용을 유지할 수 있습니다. TransitionGroup 컴포넌트를 사용하여 체크리스트 등록 및 삭제 시 애니메이션을 적용하였습니다.',
     site: 'https://shinhee-vue-checklist.netlify.app/',
     code: 'https://github.com/sini1004/Vue_TODO'
+  },
+  {
+    imgsrc: pro7,
+    title: 'Check List',
+    text: '뷰로 제작한 CHECK LIST',
+    skill: 'html5, css3, jquery, javascript',
+    comment: 'localStorage 사용으로 브라우저를 열었을 때 이전에 입력해둔 내용을 유지할 수 있습니다. TransitionGroup 컴포넌트를 사용하여 체크리스트 등록 및 삭제 시 애니메이션을 적용하였습니다.',
+    site: 'https://sini1004.github.io/SINI/',
+    code: 'https://github.com/sini1004/SINI'
   }
 ];
 

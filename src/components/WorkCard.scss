@@ -12,17 +12,20 @@
   grid-gap: 40px;
 }
 .work-card {
-  // border: 2px solid #eee;
+  background: #2c3135;
   color: #eee;
   text-align: center;
   transition: 0.7s;
   position: relative;
   width: 100%;
   height: auto;
-  padding: 1.6rem 1rem;
+  padding: 2.6rem 1rem;
+  &:hover {
+    background: transparent;
+  }
   span {
     position: absolute;
-    background: #ffd501;
+    background: #4db5ff;
     &:nth-child(1) {
       left: 0;
       top: 0;

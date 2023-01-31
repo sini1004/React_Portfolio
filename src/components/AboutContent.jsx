@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import { HiOutlineAcademicCap, HiOutlineLightBulb, HiOutlineSparkles, HiOutlineEmojiHappy } from 'react-icons/hi'
 import Experience from './Experience'
 import Career from './Career'
+import { Link } from 'react-router-dom'
 
 
 const AboutContent = () => {
@@ -53,36 +54,9 @@ const AboutContent = () => {
             브라우저 위에 그려지는것들이 재미있고 완성된 작업물을 보는 것이 뿌듯합니다.<br />
             차후 프론트엔드로 전향하는 것이 현재 저의 목표입니다.
           </p>
-          <a href="#contact" className='btn'>Go to</a>
+          <Link to='/contact' className='btn'>Go to</Link>
         </div>
       </div>
-      {/* <div className="left">
-        <div className="img-container">
-          <div className="img-stack top">
-            <img src={profile} alt="profile" className='img'/>
-          </div>
-          <div className="img-stack bottom">
-            <img src={profile} alt="profile" className='img'/>
-          </div>
-        </div>
-      </div>
-      <div className="right">
-        <h1 data-aos='fade-left'>Who Am I?</h1>
-        <p data-aos='fade-left' data-aos-delay="500">
-          안녕하세요!<br />4년차 웹 퍼블리셔 박신희입니다.<br />
-          쉽고 깔끔한 코드를 표현하는 걸 좋아합니다.<br /><br />
-
-          탄탄한 코드와 유지보수를 위한 컴포넌트 단위의 마크업에 관심이 많습니다.<br /><br />
-
-          사용자의 입장에서 한번 더 생각하고 더 나은 방향을 위해 고민합니다.<br /><br />
-
-          브라우저 위에 그려지는것들이 재미있고 완성된 작업물을 보는 것이 뿌듯합니다.<br /><br />
-
-          차후 프론트엔드로 전향하는 것이 현재 저의 목표입니다.<br />
-          목표를 위해 하루하루 꾸준함을 잃지 않으려 노력합니다.<br /><br />
-          제 포트폴리오에 방문해주셔서 감사합니다.
-        </p>
-      </div> */}
       <Experience />
       <Career />
     </div>
