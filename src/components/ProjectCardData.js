@@ -63,10 +63,10 @@ const ProjectCardData = [
   },
   {
     imgsrc: pro7,
-    title: 'Check List',
-    text: '뷰로 제작한 CHECK LIST',
+    title: 'Portfolio',
+    text: '개인 포트폴리오 제작',
     skill: 'html5, css3, jquery, javascript',
-    comment: 'localStorage 사용으로 브라우저를 열었을 때 이전에 입력해둔 내용을 유지할 수 있습니다. TransitionGroup 컴포넌트를 사용하여 체크리스트 등록 및 삭제 시 애니메이션을 적용하였습니다.',
+    comment: 'javascript 라이브러리인 "GSAP"를 사용하여 제작하였습니다. 프로젝트 내용은 javascript의 XMLHttpRequest객체를 사용하여 "project.json"에 저장해둔 프로젝트 리스트를 보여줄 수 있게 하였습니다.',
     site: 'https://sini1004.github.io/SINI/',
     code: 'https://github.com/sini1004/SINI'
   }
